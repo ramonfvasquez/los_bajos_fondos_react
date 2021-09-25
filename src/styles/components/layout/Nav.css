@@ -1,0 +1,40 @@
+.nav-container {
+  background-color: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 1px solid whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 5px;
+}
+
+.first-btn {
+  border-left: 2px solid whitesmoke;
+}
+
+.last-btn {
+  border-bottom-right-radius: 5px;
+  border-right: none;
+}
+
+@media screen and (max-width: 760px) {
+  .nav-container * {
+    font-size: 1rem;
+  }
+
+  .first-btn {
+    border-left: 1px solid whitesmoke;
+  }
+
+  .last-btn {
+    border-bottom-right-radius: 0;
+    border-right: 1px solid whitesmoke;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .nav-container {
+    display: block;
+  }
+}

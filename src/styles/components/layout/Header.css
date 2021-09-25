@@ -1,0 +1,41 @@
+.header-container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5px;
+}
+
+.header-container img {
+  border: 3px solid whitesmoke;
+  border-radius: 100px;
+  margin: 15px;
+  max-height: 100px;
+}
+
+.header-title h1,
+.header-title h5 {
+  margin-left: 10px;
+}
+
+.header-title h5 {
+  text-align: right;
+}
+
+@media screen and (max-width: 419px) {
+  .header-container {
+    justify-content: center;
+  }
+
+  .header-title h5 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header-title h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,45 @@
+.obra-container img {
+  border: 5px solid black;
+  max-height: 300px;
+}
+
+.obra-img.left {
+  float: left;
+  margin-right: 30px;
+}
+
+.obra-img.right {
+  float: right;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .obra-container img {
+    max-width: 300px;
+  }
+
+  .obra-img.left,
+  .obra-img.right {
+    float: none;
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .obra-container img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .obra-container {
+    text-align: center;
+  }
+  .obra-img.left,
+  .obra-img.right {
+    float: none;
+    margin: 20px 0;
+    text-align: center;
+  }
+}

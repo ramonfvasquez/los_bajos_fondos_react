@@ -1,0 +1,26 @@
+form {
+  margin: 20px auto;
+  text-align: center;
+  width: 40%;
+}
+
+form * {
+  display: inline-block;
+  margin: 5px 0;
+  width: 90%;
+}
+
+form label {
+  font-size: 1.4rem;
+}
+
+form .send-btn {
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+}
+
+form .send-btn,
+form label {
+  font-weight: bolder;
+}
